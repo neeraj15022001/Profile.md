@@ -10,7 +10,7 @@ function PopUp({ data }) {
             <button className="btn btn-lg button-theme-red-100 rounded-circle d-flex align-items-center justify-content-center ms-auto">
                 <a href="#" className="text-decoration-none p-0- m-0 fs-2 d-flex align-items-center justify-content-center"><XCircleFill color="white" /></a>
             </button>
-            <div className="bg-secondary text-white px-3 py-5 mt-3">
+            <div className="bg-theme-black-rasin text-white px-3 py-5 mt-3">
                 <ReactMd input={data} />
             </div>
         </section>

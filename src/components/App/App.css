@@ -8,6 +8,8 @@
     --theme-green-300: #2b3531;
     --theme-yellow-100: #f4f0e1;
     --theme-blue-100: #DBE8D9;
+    --theme-black-rasin: #211F1F;
+
 }
 ::-webkit-scrollbar {
     display: none !important;
@@ -65,6 +67,9 @@
 }
 .bg-theme-yellow-100 {
     background-color: var(--theme-yellow-100) !important;
+}
+.bg-theme-black-rasin {
+    background-color: var(--theme-black-rasin) !important;
 }
 .button-theme-red-100 {
     background-color: var(--theme-red-100) !important;

@@ -10,7 +10,7 @@ function ProfileCard({imageURL, title, content }) {
                 toggle ? 'bg-theme-green-200' : 'bg-theme-yellow-100'
             } shadow`}
         >
-            <img src={imageURL} className="card-img-top" alt="random" />
+            <img src={`https://victorakaps.herokuapp.com/profileMdGifs/${title}.gif`} className="card-img-top" alt="random" />
             <div className="card-body">
                 <h5
                     className={`card-title fw-bold ${

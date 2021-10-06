@@ -12,7 +12,7 @@ Worry not, here you can get multiple kinds of ready to use **README** files cura
 
 # How to participate
 
--   [Must Check these Steps Before Contributing](./CONTRIBUTING.md)
+-   [Must Check these Steps Before Contributing](https://github.com/victor-thescuti/Profile.md/blob/main/CONTRIBUTING.md)
 
 # Contributing Guidelines
 
@@ -20,11 +20,11 @@ Worry not, here you can get multiple kinds of ready to use **README** files cura
 
 The main motive of this Repository is to serve peer developers and make something valuable. So, make sure not to **Spam** here.
 
-See code of Conduct here - [CODE OF CONDUCT ](CODE_OF_CONDUCT.md)
+See code of Conduct here - [CODE OF CONDUCT ](https://github.com/victor-thescuti/Profile.md/blob/main/CODE_OF_CONDUCT.md)
 
 # Start Contributing
 
-To learn how to start contributing checkout [CONTRIBUTING.md](CONTRIBUTING.md)
+To learn how to start contributing checkout [CONTRIBUTING.md](https://github.com/victor-thescuti/Profile.md/blob/main/CONTRIBUTING.md)
 
 # Maintainers
 
@@ -33,7 +33,7 @@ To learn how to start contributing checkout [CONTRIBUTING.md](CONTRIBUTING.md)
 
 # License
 
-Unlicensed - [LICENSE](LICENSE.md)
+Unlicensed - [LICENSE](https://github.com/victor-thescuti/Profile.md/blob/main/LICENSE.md)
 
 # Contributors
 

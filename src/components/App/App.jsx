@@ -7,7 +7,8 @@ import {
     Preloader,
     DevProfiles,
     Contributors,
-    GithubFloatingButton
+    GithubFloatingButton,
+    Dock
 } from './imports.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -30,6 +31,7 @@ function App() {
             <ThemeButton></ThemeButton>
             <Preloader></Preloader>
             <GithubFloatingButton />
+            <Dock />
         </DarkModeProvider>
     );
 }

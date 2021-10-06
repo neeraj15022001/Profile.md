@@ -1,0 +1,28 @@
+.dock {
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 8px 8px 0;
+    transition: 0.3s ease-in-out;
+}
+.opening-button {
+    content: '>';
+    color: var(--theme-red-100);
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    right: -30px;
+    box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.5);
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}

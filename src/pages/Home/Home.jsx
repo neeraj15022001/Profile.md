@@ -40,7 +40,7 @@ function Home() {
                 }`}
             >
                 <Link to="/dev-profiles" className="text-white text-decoration-none">
-                    Explore More
+                    Explore Profiles
                 </Link>
             </button>
             <button

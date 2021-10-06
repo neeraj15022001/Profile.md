@@ -8,12 +8,18 @@
     padding: 30px;
     display: none;
     overflow: auto;
-    z-index: 1003
+    z-index: 1003;
 }
-#popup > button {
-    height: 50px;
-    width: 50px;
+.close-button {
+    max-height: 50px !important;
+    max-width: 50px !important;
 }
 #popup:target {
     display: block;
+}
+.breadcrumb {
+    z-index: 1004;
+    transition: 0.3s ease-in-out;
+    bottom: 0;
+    right: -300px;
 }

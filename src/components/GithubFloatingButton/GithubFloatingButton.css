@@ -1,0 +1,48 @@
+.github-button {
+    position: fixed;
+    bottom: 32px;
+    right: 100px;
+    z-index: 1000;
+    padding: 16px;
+    font-size: 2rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    outline: none;
+    user-select: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: black;
+}
+.github-icon {
+    background-color: transparent !important;
+    cursor: pointer !important;
+}
+@media screen and (min-width: 1024px) {
+    .github-button:hover {
+        transform: perspective(1px) scale(1.2, 1.2);
+    }
+}
+@media screen and (max-width: 500px) {
+    .github-button-container {
+        clip-path: polygon(100% 0, 0 0, 100% 100%);
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .github-button {
+        top: 0px;
+        right: 0px;
+    }
+}

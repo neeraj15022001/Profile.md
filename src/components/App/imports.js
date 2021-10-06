@@ -4,4 +4,5 @@ import Home from "../../pages/Home/Home"
 import Preloader from "../Preloader/Preloader";
 import DevProfiles from "../../pages/DevProfiles/DevProfiles";
 import Contributors from "../../pages/Contributors/Contributors";
-export {DarkModeProvider, ThemeButton, Home, Preloader, Contributors, DevProfiles};
+import GithubFloatingButton from "../GithubFloatingButton/GithubFloatingButton";
+export {DarkModeProvider, ThemeButton, Home, Preloader, Contributors, DevProfiles, GithubFloatingButton};
